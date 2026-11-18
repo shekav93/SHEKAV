@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#213550">
+  <meta name="description" content="SHEKAV — إدارة التفاصيل تصنع الفرق. إدارة تشغيلية خارجية للمقاهي والمنشآت، وإدارة المشتريات والمخزون والموردين وتحليل التكاليف.">
+  <title>SHEKAV | إدارة التفاصيل تصنع الفرق</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--navy:#213550;--cream:#F5F2EA;--ink:#213550;--muted:#667487;--line:rgba(33,53,80,.14);--white:#fff;--shadow:0 18px 55px rgba(33,53,80,.08);--radius:22px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--cream);color:var(--ink);font-family:"IBM Plex Sans Arabic",Tahoma,Arial,sans-serif;line-height:1.85}a{color:inherit;text-decoration:none}button,input,textarea{font:inherit}.container{width:min(1160px,calc(100% - 44px));margin-inline:auto}.topbar{position:sticky;top:0;z-index:20;background:rgba(245,242,234,.94);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}.nav{height:82px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:12px;font-weight:700;letter-spacing:2px;font-size:21px;direction:ltr}.mark{width:42px;height:42px;display:grid;place-items:center;border:1.5px solid var(--navy);border-radius:13px;font-family:Georgia,serif;font-size:17px;letter-spacing:-5px;padding-inline-end:4px}.navlinks{display:flex;align-items:center;gap:25px;font-size:13px;font-weight:600;color:#46566a}.navlinks a:hover{color:var(--navy)}.nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 21px;border-radius:999px;background:var(--navy);color:var(--cream);border:1px solid var(--navy);font-size:14px;font-weight:600;transition:.25s;cursor:pointer}.nav-cta:hover,.btn:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(33,53,80,.18)}.menu-toggle{display:none;background:none;border:1px solid var(--line);color:var(--navy);border-radius:12px;padding:8px 12px;font-size:21px}
+    .hero{padding:104px 0 92px;position:relative;overflow:hidden}.hero:before{content:"";position:absolute;width:430px;height:430px;border:1px solid rgba(33,53,80,.08);border-radius:50%;left:-170px;top:5px;box-shadow:0 0 0 42px rgba(33,53,80,.018),0 0 0 84px rgba(33,53,80,.014)}.eyebrow{display:inline-flex;align-items:center;gap:10px;color:#647286;font-size:12px;font-weight:700;letter-spacing:1.5px}.eyebrow:before{content:"";width:27px;height:1px;background:var(--navy)}h1{font-size:clamp(39px,6.2vw,70px);line-height:1.32;letter-spacing:-1.7px;margin:22px 0 20px;max-width:820px;font-weight:700}.hero p{font-size:17px;color:#596a7e;max-width:690px;line-height:2.1;margin:0 0 30px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.btn-outline{background:transparent;color:var(--navy)}.hero-note{margin-top:66px;padding-top:23px;border-top:1px solid var(--line);display:flex;gap:36px;flex-wrap:wrap;color:#657387;font-size:12px}.hero-note span{display:flex;align-items:center;gap:9px}.dot{width:5px;height:5px;border-radius:50%;background:var(--navy)}
+    section{padding:92px 0}.section-head{max-width:690px;margin-bottom:42px}.kicker{font-size:12px;font-weight:700;letter-spacing:1.3px;color:#788597}.section-head h2{font-size:clamp(29px,4vw,43px);line-height:1.4;margin:10px 0 13px;letter-spacing:-.7px}.section-head p{color:var(--muted);margin:0;line-height:2}.about-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:70px;align-items:center}.about-copy p{color:#596a7e;line-height:2.15;margin:0 0 16px}.about-panel{background:var(--navy);color:var(--cream);padding:40px;border-radius:var(--radius);min-height:270px;display:flex;flex-direction:column;justify-content:space-between;box-shadow:var(--shadow)}.about-panel .big-mark{font-family:Georgia,serif;font-size:44px;letter-spacing:-10px;direction:ltr;align-self:flex-start;padding-inline-end:9px}.about-panel p{font-size:24px;line-height:1.7;margin:24px 0 0;max-width:360px}.about-panel small{opacity:.65;font-size:11px;letter-spacing:1px}
+    .services{background:#fff}.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.service-card{border:1px solid var(--line);border-radius:18px;padding:27px 25px;min-height:218px;background:#fff;transition:.25s}.service-card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}.service-num{font-size:11px;color:#8793a1;letter-spacing:1px}.service-card h3{font-size:19px;margin:19px 0 8px}.service-card p{font-size:13px;line-height:2;color:#69788a;margin:0}
+    .process-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;counter-reset:steps}.step{border-top:1px solid rgba(33,53,80,.35);padding-top:18px;counter-increment:steps}.step:before{content:"0" counter(steps);font-size:12px;color:#8793a1;letter-spacing:1px}.step h3{font-size:17px;margin:14px 0 7px}.step p{font-size:12px;line-height:2;color:#69788a;margin:0}
+    .why{background:var(--navy);color:var(--cream)}.why .kicker,.why .section-head p{color:rgba(245,242,234,.62)}.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0 35px}.why-item{padding:17px 0;border-bottom:1px solid rgba(245,242,234,.16);display:flex;gap:13px;align-items:flex-start;font-size:15px}.check{width:21px;height:21px;flex:0 0 21px;border:1px solid rgba(245,242,234,.5);border-radius:50%;display:grid;place-items:center;font-size:11px;margin-top:2px}
+    .pricing{background:#fff}.pricing-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;align-items:stretch}.price-card{border:1px solid var(--line);border-radius:20px;padding:29px 25px;display:flex;flex-direction:column;position:relative}.price-card.featured{background:var(--navy);color:var(--cream);border-color:var(--navy);box-shadow:var(--shadow)}.plan{font-size:12px;color:#8290a0;font-weight:700;letter-spacing:1px}.featured .plan,.featured .price-desc,.featured .features{color:rgba(245,242,234,.72)}.price{font-size:39px;font-weight:700;line-height:1.4;margin:13px 0 0;direction:rtl}.price small{font-size:13px;font-weight:400}.price-desc{font-size:12px;color:#778496;margin:3px 0 20px}.features{list-style:none;padding:18px 0 0;margin:0 0 25px;border-top:1px solid var(--line);color:#5f6e80;font-size:13px;line-height:2.15;flex:1}.featured .features{border-color:rgba(245,242,234,.2)}.features li{padding:4px 0}.features li:before{content:"—";margin-left:9px;opacity:.7}.price-card .btn{width:100%;margin-top:auto}.featured .btn{background:var(--cream);color:var(--navy);border-color:var(--cream)}.pricing-notes{margin-top:25px;padding:20px 23px;border:1px solid var(--line);border-radius:16px;color:#68778a;font-size:12px;line-height:2}.pricing-notes strong{color:var(--navy)}
+    .contact{background:var(--cream)}.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:65px}.contact-intro p{color:#667589;line-height:2}.contact-details{margin-top:28px;display:grid;gap:13px}.contact-line{display:flex;align-items:center;gap:12px;font-size:14px;color:#53647a}.contact-icon{width:35px;height:35px;border:1px solid var(--line);border-radius:11px;display:grid;place-items:center}.contact-form{background:#fff;border:1px solid var(--line);border-radius:20px;padding:29px;box-shadow:var(--shadow)}.field{display:grid;gap:7px;margin-bottom:15px}.field label{font-size:12px;font-weight:600}.field input,.field textarea{width:100%;border:1px solid var(--line);border-radius:11px;padding:12px 14px;background:#fff;color:var(--navy);outline:none}.field input:focus,.field textarea:focus{border-color:var(--navy)}.field textarea{min-height:105px;resize:vertical}.form-hint{font-size:11px;color:#7c8998;margin:10px 0 0;line-height:1.8}.contact-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}.contact-actions .btn{flex:1}.footer{background:var(--navy);color:var(--cream);padding:28px 0}.footer-inner{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}.footer .brand{font-size:17px}.footer .mark{border-color:rgba(245,242,234,.7)}.footer small{color:rgba(245,242,234,.58);font-size:11px}
+    .reveal{opacity:0;transform:translateY(18px);transition:opacity .65s ease,transform .65s ease}.reveal.visible{opacity:1;transform:none}
+    @media(max-width:900px){.navlinks{gap:13px;font-size:12px}.nav-cta{padding:10px 15px}.services-grid{grid-template-columns:repeat(2,1fr)}.process-grid{grid-template-columns:repeat(3,1fr);row-gap:25px}.why-grid{grid-template-columns:repeat(2,1fr)}.pricing-grid{grid-template-columns:1fr;max-width:620px}.price-card{padding:26px}.about-grid,.contact-grid{gap:35px}}
+    @media(max-width:680px){.container{width:min(100% - 34px,560px)}.nav{height:70px}.menu-toggle{display:block}.navlinks{display:none;position:absolute;top:70px;right:0;left:0;background:var(--cream);padding:18px 24px 24px;border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;gap:0}.navlinks.open{display:flex}.navlinks a{padding:10px 0;border-bottom:1px solid var(--line)}.nav-cta{display:none}.hero{padding:72px 0 60px}.hero p{font-size:15px}.hero-note{margin-top:45px;gap:14px;flex-direction:column}section{padding:68px 0}.about-grid,.contact-grid{grid-template-columns:1fr}.about-panel{min-height:230px;padding:29px}.about-panel p{font-size:21px}.services-grid{grid-template-columns:1fr}.service-card{min-height:0}.process-grid{grid-template-columns:repeat(2,1fr)}.why-grid{grid-template-columns:1fr}.section-head{margin-bottom:30px}.contact-form{padding:21px}.footer-inner{align-items:flex-start;flex-direction:column}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+  </style>
+</head>
+<body>
+  <!-- بيانات التواصل: عدّل القيم الثلاث في قسم CONFIG أسفل الملف -->
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="SHEKAV"><span class="mark">S H</span><span>SHEKAV</span></a>
+      <nav class="navlinks" id="navlinks" aria-label="القائمة الرئيسية">
+        <a href="#home">الرئيسية</a><a href="#about">من نحن</a><a href="#services">خدماتنا</a><a href="#process">كيف نعمل</a><a href="#pricing">الباقات</a><a href="#contact">تواصل معنا</a>
+      </nav>
+      <a class="nav-cta" href="#contact">اطلب عرض سعر</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة" aria-expanded="false">☰</button>
+    </div>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="eyebrow">إدارة تشغيلية خارجية للمقاهي والمنشآت</div>
+        <h1>تشغيل أكثر كفاءة<br>وتحكم أفضل بالتكاليف.</h1>
+        <p>نساعد المقاهي والمنشآت على تنظيم عملياتها التشغيلية من خلال إدارة المشتريات والمخزون ومتابعة الموردين وتحليل التكاليف، بما يمنح أصحاب الأعمال رؤية أوضح لأداء منشآتهم ويساعدهم على اتخاذ قرارات تشغيلية مبنية على البيانات.</p>
+        <div class="hero-actions"><a class="btn" href="#contact">اطلب عرض سعر <span>←</span></a><a class="btn btn-outline" href="#services">اكتشف خدماتنا</a></div>
+        <div class="hero-note"><span><i class="dot"></i> إدارة ومتابعة تشغيلية منظمة</span><span><i class="dot"></i> تقارير وقرارات مبنية على البيانات</span><span><i class="dot"></i> دون الحاجة إلى فريق إداري داخلي</span></div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container about-grid">
+        <div class="about-copy reveal">
+          <div class="section-head"><div class="kicker">من نحن</div><h2>إدارة التفاصيل تصنع الفرق.</h2></div>
+          <p>SHEKAV شركة متخصصة في تقديم خدمات الإدارة والمتابعة التشغيلية الخارجية، نعمل على تطوير كفاءة العمليات اليومية للمنشآت من خلال أنظمة متابعة منظمة، وتحليل دقيق للبيانات، وتقارير تساعد الإدارة على فهم التكاليف والتحكم بالمخزون والمشتريات.</p>
+          <p>نؤمن بأن الإدارة الفعالة تبدأ من وضوح البيانات، وأن التحكم في التفاصيل التشغيلية يصنع فرقًا حقيقيًا في أداء المنشأة.</p>
+        </div>
+        <div class="about-panel reveal"><div class="big-mark">S H</div><p>وضوح في البيانات.<br>تحكم في التفاصيل.<br>قرارات أفضل.</p><small>SHEKAV — OPERATIONAL MANAGEMENT</small></div>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-head reveal"><div class="kicker">خدماتنا</div><h2>منظومة تشغيلية مترابطة.</h2><p>خدمات إدارية وتشغيلية تساعدك على تنظيم التفاصيل اليومية ومتابعة الأداء بصورة أوضح.</p></div>
+        <div class="services-grid">
+          <article class="service-card reveal"><span class="service-num">01 / PROCUREMENT</span><h3>إدارة المشتريات</h3><p>تنظيم طلبات الشراء، متابعة الاحتياجات، مراجعة الأسعار، ومقارنة عروض الموردين.</p></article>
+          <article class="service-card reveal"><span class="service-num">02 / SUPPLIERS</span><h3>إدارة الموردين</h3><p>متابعة الموردين، تقييم الأسعار وجودة الخدمة، وتنظيم بيانات التوريد.</p></article>
+          <article class="service-card reveal"><span class="service-num">03 / INVENTORY</span><h3>إدارة المخزون</h3><p>إعداد سجلات الأصناف، متابعة الأرصدة، تنفيذ الجرد، وتحليل الفروقات.</p></article>
+          <article class="service-card reveal"><span class="service-num">04 / COST CONTROL</span><h3>تحليل التكاليف</h3><p>احتساب تكلفة الوصفات والمنتجات، متابعة تكلفة المواد الخام، وتحليل الاستهلاك والهدر.</p></article>
+          <article class="service-card reveal"><span class="service-num">05 / OPERATIONS</span><h3>الرقابة التشغيلية</h3><p>زيارات ميدانية دورية، متابعة إجراءات العمل، توثيق الملاحظات، واقتراح الإجراءات التصحيحية.</p></article>
+          <article class="service-card reveal"><span class="service-num">06 / REPORTING</span><h3>التقارير والتحليل</h3><p>تقارير دورية توضح حركة المخزون والمشتريات والتكاليف والفروقات ومؤشرات الأداء.</p></article>
+        </div>
+      </div>
+    </section>
+    <section id="process">
+      <div class="container">
+        <div class="section-head reveal"><div class="kicker">كيف نعمل؟</div><h2>خطوات واضحة من التأسيس إلى المتابعة.</h2><p>منهجية عملية لبناء صورة دقيقة عن التشغيل ثم تطوير آليات المتابعة والتحسين.</p></div>
+        <div class="process-grid">
+          <article class="step reveal"><h3>التأسيس</h3><p>فهم طبيعة المنشأة وتجميع البيانات الأساسية.</p></article>
+          <article class="step reveal"><h3>الجرد والتحليل</h3><p>حصر الأصناف والمخزون ومراجعة التكاليف.</p></article>
+          <article class="step reveal"><h3>التنظيم</h3><p>بناء سجلات متابعة المشتريات والموردين والمخزون.</p></article>
+          <article class="step reveal"><h3>المتابعة</h3><p>زيارات ميدانية ومراجعة إلكترونية مستمرة.</p></article>
+          <article class="step reveal"><h3>التقارير</h3><p>تقديم نتائج واضحة وتوصيات قابلة للتنفيذ.</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="why" id="why">
+      <div class="container">
+        <div class="section-head reveal"><div class="kicker">لماذا SHEKAV؟</div><h2>تحكم أفضل يبدأ برؤية أوضح.</h2><p>نمنح الإدارة أدوات متابعة منظمة دون الحاجة إلى إنشاء قسم إداري داخلي مستقل.</p></div>
+        <div class="why-grid">
+          <div class="why-item reveal"><span class="check">✓</span>رؤية أوضح للمشتريات والمخزون.</div>
+          <div class="why-item reveal"><span class="check">✓</span>متابعة منظمة للموردين.</div>
+          <div class="why-item reveal"><span class="check">✓</span>معرفة أدق بتكاليف المنتجات.</div>
+          <div class="why-item reveal"><span class="check">✓</span>اكتشاف الفروقات والهدر.</div>
+          <div class="why-item reveal"><span class="check">✓</span>تقارير تساعد على اتخاذ القرار.</div>
+          <div class="why-item reveal"><span class="check">✓</span>متابعة تشغيلية دون قسم إداري داخلي مستقل.</div>
+        </div>
+      </div>
+    </section>
+    <section class="pricing" id="pricing">
+      <div class="container">
+        <div class="section-head reveal"><div class="kicker">باقات الخدمات</div><h2>اختر مستوى المتابعة المناسب لمنشأتك.</h2><p>اشتراكات شهرية لفرع واحد، مع إمكانية تحديد نطاق العمل وفق احتياج المنشأة.</p></div>
+        <div class="pricing-grid">
+          <article class="price-card reveal"><div class="plan">ESSENTIAL</div><div class="price">1,500 <small>ريال / شهريًا</small></div><p class="price-desc">الأساسيات اللازمة لتنظيم المتابعة.</p><ul class="features"><li>متابعة المخزون والمشتريات والموردين</li><li>جرد شهري</li><li>تقرير مختصر</li><li>زيارة ميدانية واحدة شهريًا</li></ul><a class="btn btn-outline" href="#contact" data-plan="Essential">اطلب الباقة</a></article>
+          <article class="price-card featured reveal"><div class="plan">PROFESSIONAL</div><div class="price">2,500 <small>ريال / شهريًا</small></div><p class="price-desc">تحليل أعمق للتكاليف والاستهلاك.</p><ul class="features"><li>جميع خدمات الباقة الأساسية</li><li>تكلفة الوصفات والمنتجات</li><li>تحليل الاستهلاك والهدر والفروقات</li><li>زيارتان ميدانيتان شهريًا</li></ul><a class="btn" href="#contact" data-plan="Professional">اطلب الباقة</a></article>
+          <article class="price-card reveal"><div class="plan">FULL MANAGEMENT</div><div class="price">3,500 <small>ريال / شهريًا</small></div><p class="price-desc">متابعة تشغيلية وإدارية أكثر شمولًا.</p><ul class="features"><li>جميع خدمات الباقة الاحترافية</li><li>متابعة دورة المشتريات</li><li>مقارنة الموردين ونقاط إعادة الطلب</li><li>الإجراءات التصحيحية</li><li>أربع زيارات ميدانية شهريًا</li></ul><a class="btn btn-outline" href="#contact" data-plan="Full Management">اطلب الباقة</a></article>
+        </div>
+        <div class="pricing-notes reveal"><strong>رسوم التأسيس:</strong> 1,500 ريال لكل فرع، تُدفع مرة واحدة.<br><strong>آلية السداد:</strong> الاشتراك الشهري يُحصّل مقدمًا في بداية كل شهر.<br>الأسعار تخص فرعًا واحدًا، والخدمات الإضافية والفروع الأخرى تخضع لعرض سعر مستقل.</div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-intro reveal"><div class="section-head"><div class="kicker">تواصل معنا</div><h2>لنبدأ بتنظيم تفاصيل التشغيل.</h2></div><p>أرسل لنا تفاصيل منشأتك والخدمات التي تحتاج إليها، وسنعمل على فهم احتياجك وتجهيز عرض مناسب.</p>
+          <div class="contact-details"><div class="contact-line"><span class="contact-icon">✉</span><span id="emailText">البريد الإلكتروني — يُضاف لاحقًا</span></div><div class="contact-line"><span class="contact-icon">☎</span><span id="phoneText">رقم الهاتف — يُضاف لاحقًا</span></div></div>
+        </div>
+        <form class="contact-form reveal" id="quoteForm">
+          <div class="field"><label for="name">الاسم</label><input id="name" name="name" autocomplete="name" required placeholder="اسمك أو اسم المسؤول"></div>
+          <div class="field"><label for="business">اسم المنشأة</label><input id="business" name="business" placeholder="اسم المقهى أو المنشأة"></div>
+          <div class="field"><label for="phone">رقم التواصل</label><input id="phone" name="phone" inputmode="tel" placeholder="رقم الهاتف"></div>
+          <div class="field"><label for="message">كيف يمكننا مساعدتك؟</label><textarea id="message" name="message" placeholder="اكتب نبذة عن احتياج منشأتك أو الباقة المطلوبة"></textarea></div>
+          <button class="btn" type="submit" style="width:100%">إرسال طلب عرض السعر</button>
+          <p class="form-hint" id="formHint">سيتم تجهيز رسالة بريد إلكتروني بعد إضافة بريد الشركة في إعدادات الموقع. لا تُرسل البيانات إلى خادم في هذه النسخة.</p>
+          <div class="contact-actions"><a class="btn btn-outline" id="whatsappButton" href="#contact" hidden>مراسلة عبر واتساب</a></div>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home"><span class="mark">S H</span><span>SHEKAV</span></a><small>إدارة التفاصيل تصنع الفرق.</small><small>© <span id="year"></span> SHEKAV. جميع الحقوق محفوظة.</small></div></footer>
+  <script>
+    // CONFIG: أضيفي بيانات الشركة هنا لاحقًا. اتركي القيمة فارغة إلى أن تتوفر البيانات الصحيحة.
+    const CONFIG = {
+      email: "",          // مثال: info@yourcompany.com
+      phoneDisplay: "",   // مثال: 05xxxxxxxx
+      whatsapp: ""        // رقم دولي بأرقام فقط، مثال السعودية: 9665xxxxxxxx
+    };
+    document.getElementById("year").textContent = new Date().getFullYear();
+    const emailText=document.getElementById("emailText"), phoneText=document.getElementById("phoneText");
+    if(CONFIG.email){emailText.textContent=CONFIG.email}
+    if(CONFIG.phoneDisplay){phoneText.textContent=CONFIG.phoneDisplay}
+    const wa=document.getElementById("whatsappButton");
+    if(CONFIG.whatsapp){wa.hidden=false;wa.href="https://wa.me/"+CONFIG.whatsapp;wa.target="_blank";wa.rel="noopener"}
+    document.getElementById("quoteForm").addEventListener("submit",e=>{
+      e.preventDefault();
+      if(!CONFIG.email){document.getElementById("formHint").textContent="لإرسال الطلب، أضيفي بريد الشركة في CONFIG داخل الملف أولًا. يمكنك أيضًا نسخ بيانات النموذج وإرسالها يدويًا.";return}
+      const f=new FormData(e.currentTarget);
+      const subject=encodeURIComponent("طلب عرض سعر — SHEKAV");
+      const body=encodeURIComponent("الاسم: "+f.get("name")+"\nالمنشأة: "+f.get("business")+"\nرقم التواصل: "+f.get("phone")+"\nالتفاصيل: "+f.get("message"));
+      location.href="mailto:"+CONFIG.email+"?subject="+subject+"&body="+body;
+    });
+    document.querySelectorAll("[data-plan]").forEach(a=>a.addEventListener("click",()=>{
+      const msg=document.getElementById("message");msg.value="أرغب في الاستفسار عن باقة "+a.dataset.plan+".";
+    }));
+    const toggle=document.getElementById("menuToggle"), nav=document.getElementById("navlinks");
+    toggle.addEventListener("click",()=>{const open=nav.classList.toggle("open");toggle.setAttribute("aria-expanded",String(open));toggle.textContent=open?"×":"☰"});
+    nav.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>{nav.classList.remove("open");toggle.setAttribute("aria-expanded","false");toggle.textContent="☰"}));
+    if("IntersectionObserver" in window){
+      const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add("visible");observer.unobserve(entry.target)}}),{threshold:.12});
+      document.querySelectorAll(".reveal").forEach(el=>observer.observe(el));
+    }else{document.querySelectorAll(".reveal").forEach(el=>el.classList.add("visible"))}
+  </script>
+</body>
+</html>
