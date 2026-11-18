@@ -127,12 +127,10 @@
   <script>
     // CONFIG: أضيفي بيانات الشركة هنا لاحقًا. اتركي القيمة فارغة إلى أن تتوفر البيانات الصحيحة.
     const CONFIG = {
-      email: "",          // مثال: info@yourcompany.com
-      phoneDisplay: "",   // مثال: 05xxxxxxxx
-      whatsapp: ""        // رقم دولي بأرقام فقط، مثال السعودية: 9665xxxxxxxx
+      email: "",          // مثال: shekav.sa@gmail.com
     };
     document.getElementById("year").textContent = new Date().getFullYear();
-    const emailText=document.getElementById("emailText"), phoneText=document.getElementById("phoneText");
+    const emailText=document.getElementById("emailText")
     if(CONFIG.email){emailText.textContent=CONFIG.email}
     if(CONFIG.phoneDisplay){phoneText.textContent=CONFIG.phoneDisplay}
     const wa=document.getElementById("whatsappButton");
